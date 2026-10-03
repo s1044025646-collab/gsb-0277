@@ -1,0 +1,8 @@
+{
+  "name": "demo-孤立元素",
+  "universe": ["CHK-Alpha", "CHK-Bravo", "CHK-Orphan"],
+  "candidates": [
+    { "id": "PKG-01", "cost": 5, "elements": ["CHK-Alpha"] },
+    { "id": "PKG-02", "cost": 5, "elements": ["CHK-Bravo"] }
+  ]
+}

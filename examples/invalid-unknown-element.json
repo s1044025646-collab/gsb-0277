@@ -1,0 +1,7 @@
+{
+  "name": "invalid-全集外元素",
+  "universe": ["A"],
+  "candidates": [
+    { "id": "P1", "cost": 1, "elements": ["A", "ZZZ"] }
+  ]
+}

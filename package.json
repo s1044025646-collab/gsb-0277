@@ -1,0 +1,27 @@
+{
+  "name": "weighted-cover-service",
+  "version": "1.0.0",
+  "description": "加权集合覆盖贪心选择与覆盖核验后端",
+  "main": "dist/src/cli.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node --test dist/test/*.test.js",
+    "start": "npm run build && node dist/src/cli.js serve",
+    "demo": "npm run build && node dist/src/cli.js demo",
+    "cli": "node dist/src/cli.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "typescript": "^7.0.2"
+  },
+  "bin": {
+    "cover": "dist/src/cli.js"
+  }
+}

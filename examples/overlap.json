@@ -1,0 +1,11 @@
+{
+  "name": "demo-重叠与平局",
+  "universe": ["CHK-Alpha", "CHK-Bravo", "CHK-Charlie", "CHK-Delta", "CHK-Echo", "CHK-Foxtrot"],
+  "candidates": [
+    { "id": "PKG-01", "cost": 8, "elements": ["CHK-Alpha", "CHK-Bravo", "CHK-Charlie", "CHK-Delta", "CHK-Alpha"] },
+    { "id": "PKG-02", "cost": 4, "elements": ["CHK-Alpha", "CHK-Bravo"] },
+    { "id": "PKG-03", "cost": 4, "elements": ["CHK-Charlie", "CHK-Delta"] },
+    { "id": "PKG-04", "cost": 4, "elements": ["CHK-Echo", "CHK-Foxtrot"] },
+    { "id": "PKG-05", "cost": 9, "elements": ["CHK-Echo", "CHK-Foxtrot", "CHK-Alpha"] }
+  ]
+}

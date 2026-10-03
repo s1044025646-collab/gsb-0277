@@ -1,0 +1,7 @@
+{
+  "name": "invalid-非法成本",
+  "universe": ["A"],
+  "candidates": [
+    { "id": "P1", "cost": 0, "elements": ["A"] }
+  ]
+}

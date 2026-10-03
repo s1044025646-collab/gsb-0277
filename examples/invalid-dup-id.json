@@ -1,0 +1,8 @@
+{
+  "name": "invalid-重复编号",
+  "universe": ["A", "B"],
+  "candidates": [
+    { "id": "P1", "cost": 1, "elements": ["A"] },
+    { "id": "P1", "cost": 2, "elements": ["B"] }
+  ]
+}
