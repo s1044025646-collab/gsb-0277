@@ -1,0 +1,9 @@
+{
+  "universe": ["CHK-01", "CHK-02", "CHK-03", "CHK-04"],
+  "candidates": [
+    { "id": "PKG-ALPHA", "cost": 4, "elements": ["CHK-01", "CHK-02", "CHK-01"] },
+    { "id": "PKG-BETA", "cost": 6, "elements": ["CHK-01", "CHK-02", "CHK-03"] },
+    { "id": "PKG-GAMMA", "cost": 6, "elements": ["CHK-03", "CHK-04"] },
+    { "id": "PKG-DELTA", "cost": 5, "elements": ["CHK-02"] }
+  ]
+}

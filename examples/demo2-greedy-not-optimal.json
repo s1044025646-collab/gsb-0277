@@ -1,0 +1,8 @@
+{
+  "universe": ["CHK-A", "CHK-B", "CHK-C"],
+  "candidates": [
+    { "id": "PKG-PAIR", "cost": 3, "elements": ["CHK-A", "CHK-B"] },
+    { "id": "PKG-SOLO", "cost": 2, "elements": ["CHK-A"] },
+    { "id": "PKG-TAIL", "cost": 4, "elements": ["CHK-B", "CHK-C"] }
+  ]
+}

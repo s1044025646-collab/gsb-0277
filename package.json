@@ -1,0 +1,21 @@
+{
+  "name": "cover-select",
+  "version": "1.0.0",
+  "description": "加权集合覆盖贪心选择与覆盖核验本地后端（API + CLI）",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test dist/test/api.test.js dist/test/greedy.test.js dist/test/service.test.js",
+    "start": "node dist/src/cli.js serve",
+    "demo": "node scripts/demo.mjs",
+    "cli": "node dist/src/cli.js"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.6.0"
+  }
+}

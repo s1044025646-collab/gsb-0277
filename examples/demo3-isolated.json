@@ -1,0 +1,7 @@
+{
+  "universe": ["CHK-X1", "CHK-X2", "CHK-ISO"],
+  "candidates": [
+    { "id": "PKG-EAST", "cost": 3, "elements": ["CHK-X1"] },
+    { "id": "PKG-WEST", "cost": 5, "elements": ["CHK-X1", "CHK-X2"] }
+  ]
+}
